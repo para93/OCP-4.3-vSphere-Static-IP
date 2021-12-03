@@ -1,17 +1,17 @@
-export DOMAIN=Domain.local
+export DOMAIN=lzed.com
 
 export CLUSTERID=demo
 
-export VCENTER_SERVER=vCenter_FQDN
+export VCENTER_SERVER=drtacvcenter01.lzed.com
 
-export VCENTER_USER="Username"
+export VCENTER_USER="administrator@vsphere.local"
 
-export VCENTER_PASS='Password'
+export VCENTER_PASS='18Monkeys!@'
 
-export VCENTER_DC=Datacenter
+export VCENTER_DC=DRTACDATACENTER
 
-export VCENTER_DS=Datastore
+export VCENTER_DS=freenas02
 
-export PULL_SECRET=$(< Pull_Secret_Loction)
+export PULL_SECRET=$(< /home/cpadmin/demo/pull-secret.json)
 
-export OCP_SSH_KEY=$(< id_rsa.pub_Location)
+export OCP_SSH_KEY=$(< /root/.ssh/id_rsa.pub)
