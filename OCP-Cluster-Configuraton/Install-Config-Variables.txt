@@ -1,16 +1,16 @@
-export DOMAIN=lzed.com
+export DOMAIN=test1.com
 
-export CLUSTERID=demo
+export CLUSTERID=demo1
 
-export VCENTER_SERVER=drtacvcenter01.lzed.com
+export VCENTER_SERVER=vcenter01.test1.com
 
-export VCENTER_USER="administrator@vsphere.local"
+export VCENTER_USER="USER123@vsphere.local"
 
-export VCENTER_PASS='18Monkeys!@'
+export VCENTER_PASS='XXXXXXXXX'
 
-export VCENTER_DC=DRTACDATACENTER
+export VCENTER_DC=DATACENTER
 
-export VCENTER_DS=freenas02
+export VCENTER_DS=store01
 
 export PULL_SECRET=$(< /home/cpadmin/demo/pull-secret.json)
 
